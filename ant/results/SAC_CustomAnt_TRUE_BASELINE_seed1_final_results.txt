@@ -1,0 +1,16 @@
+========== FINAL RESULTS (deterministic) ==========
+Run name: SAC_CustomAnt_TRUE_BASELINE_run2
+Episodes: 50
+
+[BEST ON SOURCE] best_model.zip
+  source -> source : 1871.42 +/- 815.54
+  source -> target : 1682.72 +/- 781.69
+
+[BEST ON TARGET] best_model.zip
+  source -> source : 2034.51 +/- 797.99
+  source -> target : 1797.94 +/- 696.53
+
+[FINAL MODEL] final_model.zip
+  source -> source : 2102.65 +/- 864.09
+  source -> target : 1640.76 +/- 893.40
+===================================================

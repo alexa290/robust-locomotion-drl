@@ -1,0 +1,50 @@
+{
+  "source_id": "CustomAntBase-source-v0",
+  "target_id": "CustomAntBase-target-v0",
+  "goal_mode": "x",
+  "curriculum_enabled": true,
+  "curriculum_switch_timestep": 500000,
+  "goal_x_range_easy": [
+    0.5,
+    2.5
+  ],
+  "goal_x_range_hard": [
+    1.0,
+    4.0
+  ],
+  "goal_x_range": [
+    0.5,
+    2.5
+  ],
+  "goal_threshold": 0.5,
+  "goal_terminate_threshold": 0.4,
+  "success_hold_steps": 5,
+  "progress_coef": 5.0,
+  "success_bonus": 8.0,
+  "near_goal_radius": 1.0,
+  "near_goal_coef": 0.2,
+  "continuous_safety": true,
+  "n_envs": 6,
+  "total_timesteps": 1000000,
+  "seed": 0,
+  "max_episode_steps": 1000,
+  "eval_freq": 40000,
+  "n_eval_episodes": 20,
+  "n_final_eval_episodes": 50,
+  "learning_rate": 0.0001,
+  "buffer_size": 1000000,
+  "learning_starts": 50000,
+  "batch_size": 256,
+  "tau": 0.005,
+  "gamma": 0.99,
+  "train_freq": 1,
+  "gradient_steps": 1,
+  "ent_coef": 0.005,
+  "use_sde": true,
+  "sde_sample_freq": 4,
+  "net_arch": [
+    256,
+    256
+  ],
+  "device": "auto"
+}

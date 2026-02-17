@@ -1,0 +1,24 @@
+========== FINAL RESULTS (deterministic) ==========
+Run name: SAC_CustomAnt_Resilient_global_symmetric_seed0_run1
+Episodes: 50
+Action clip: 0.8
+MOTOR_UDR_MODE: global_symmetric
+Target_faulty motor_dr_range: 0.5
+
+[FINAL MODEL] final_model.zip
+  source -> source        : 2245.20 +/- 982.72
+  source -> target        : 1901.02 +/- 1100.21
+  source -> target_faulty : 2281.74 +/- 941.90
+  drop source->target     : 15.33%
+  drop target->faulty     : -20.03%
+
+[GLOBAL SYMMETRIC SWEEP on TARGET]
+  mean_across_r : 2086.67
+  worst_mean    : 1774.25
+  AUC(mean vs r): 1022.16
+  points        : r=0.00:2357, r=0.10:1876, r=0.20:1774, r=0.30:1967, r=0.40:2305, r=0.50:2239
+
+[GLOBAL FIXED-G ENDPOINTS on TARGET]
+  g_low=0.50  : 1760.38 +/- 81.72
+  g_high=1.50 : 621.04 +/- 680.43
+================================================

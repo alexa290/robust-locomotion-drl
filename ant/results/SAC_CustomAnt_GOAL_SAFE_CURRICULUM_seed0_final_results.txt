@@ -1,0 +1,17 @@
+============================================================
+RUN: SAC_CustomAnt_GOAL_SAFE_CURRICULUM_seed0_run1
+source env: CustomAntBase-source-v0
+target env: CustomAntBase-target-v0
+============================================================
+
+[BEST_ON_SOURCE] best_model.zip
+  source -> source : 15.57 +/- 3.53
+  source -> target : 15.52 +/- 5.86
+
+[BEST_ON_TARGET] best_model.zip
+  source -> source : 15.68 +/- 2.75
+  source -> target : 17.14 +/- 12.38
+
+[FINAL] final_model.zip
+  source -> source : 16.19 +/- 3.37
+  source -> target : 14.80 +/- 2.71

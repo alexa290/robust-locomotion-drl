@@ -1,0 +1,7 @@
+method,domain,timesteps,success_rate,mean_time_to_goal,violation_rate,mean_violations,mean_final_dist,mean_return,mean_len,fall_rate,source_file
+Baseline-X,source,960048,0.8,69.0,0.0,0.0,0.5260456800460815,2.441662311553955,255.2,,SAC_CustomAnt_GOAL_BASELINE_X_seed0_goal_metrics_eval.csv
+Baseline-X,target,960048,1.0,52.2,0.0,0.0,0.4691902101039886,1.6550287008285522,52.2,,SAC_CustomAnt_GOAL_BASELINE_X_seed0_goal_metrics_eval.csv
+Baseline-X-Improved,source,960048,0.8,124.25,0.1,0.15,0.6434997320175171,1.289146065711975,307.0,,SAC_CustomAnt_GOAL_BASELINE_X_IMPROVED_seed0_goal_metrics_eval.csv
+Baseline-X-Improved,target,960048,0.85,104.05882352941175,0.05,0.1,0.5643882155418396,1.6451431512832642,273.35,,SAC_CustomAnt_GOAL_BASELINE_X_IMPROVED_seed0_goal_metrics_eval.csv
+GoalSafe+Friction,source,960048,1.0,19.85,0.0,0.0,0.1875132620334625,15.667879104614258,20.3,0.0,SAC_CustomAnt_GOAL_SAFE_CURRICULUM_seed0_goal_metrics_eval.csv
+GoalSafe+Friction,target,960048,1.0,19.35,0.0,0.0,0.2320627272129058,15.869695663452148,26.4,0.0,SAC_CustomAnt_GOAL_SAFE_CURRICULUM_seed0_goal_metrics_eval.csv

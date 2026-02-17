@@ -1,0 +1,12 @@
+\begin{tabular}{llrrrrrrrrrl}
+\toprule
+method & domain & timesteps & success_rate & mean_time_to_goal & violation_rate & mean_violations & mean_final_dist & mean_return & mean_len & fall_rate & source_file \\
+\midrule
+Baseline-X & source & 960048 & 0.800 & 69.000 & 0.000 & 0.000 & 0.526 & 2.442 & 255.200 & NaN & SAC_CustomAnt_GOAL_BASELINE_X_seed0_goal_metrics_eval.csv \\
+Baseline-X & target & 960048 & 1.000 & 52.200 & 0.000 & 0.000 & 0.469 & 1.655 & 52.200 & NaN & SAC_CustomAnt_GOAL_BASELINE_X_seed0_goal_metrics_eval.csv \\
+Baseline-X-Improved & source & 960048 & 0.800 & 124.250 & 0.100 & 0.150 & 0.643 & 1.289 & 307.000 & NaN & SAC_CustomAnt_GOAL_BASELINE_X_IMPROVED_seed0_goal_metrics_eval.csv \\
+Baseline-X-Improved & target & 960048 & 0.850 & 104.059 & 0.050 & 0.100 & 0.564 & 1.645 & 273.350 & NaN & SAC_CustomAnt_GOAL_BASELINE_X_IMPROVED_seed0_goal_metrics_eval.csv \\
+GoalSafe+Friction & source & 960048 & 1.000 & 19.850 & 0.000 & 0.000 & 0.188 & 15.668 & 20.300 & 0.000 & SAC_CustomAnt_GOAL_SAFE_CURRICULUM_seed0_goal_metrics_eval.csv \\
+GoalSafe+Friction & target & 960048 & 1.000 & 19.350 & 0.000 & 0.000 & 0.232 & 15.870 & 26.400 & 0.000 & SAC_CustomAnt_GOAL_SAFE_CURRICULUM_seed0_goal_metrics_eval.csv \\
+\bottomrule
+\end{tabular}

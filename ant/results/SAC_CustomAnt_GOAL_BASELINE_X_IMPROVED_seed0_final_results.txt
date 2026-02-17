@@ -1,0 +1,17 @@
+============================================================
+RUN: SAC_CustomAnt_GOAL_BASELINE_X_IMPROVED_seed0_run1
+source env: CustomAntBase-source-v0
+target env: CustomAntBase-target-v0
+============================================================
+
+[BEST_ON_SOURCE] best_model.zip
+  source -> source : 1.53 +/- 1.13
+  source -> target : 1.44 +/- 0.83
+
+[BEST_ON_TARGET] best_model.zip
+  source -> source : 1.77 +/- 1.01
+  source -> target : 1.45 +/- 0.97
+
+[FINAL] final_model.zip
+  source -> source : 0.07 +/- 1.43
+  source -> target : 0.41 +/- 1.61

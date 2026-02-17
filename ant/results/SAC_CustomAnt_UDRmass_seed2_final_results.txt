@@ -1,0 +1,16 @@
+========== FINAL RESULTS (deterministic) ==========
+Run name: SAC_CustomAnt_UDR_seed2_run1
+Episodes: 50
+
+[BEST ON SOURCE] best_model.zip
+  source -> source : 2029.71 +/- 798.36
+  source -> target : 2089.95 +/- 869.95
+
+[BEST ON TARGET] best_model.zip
+  source -> source : 1970.33 +/- 502.65
+  source -> target : 2154.98 +/- 488.68
+
+[FINAL MODEL] final_model.zip
+  source -> source : 1825.28 +/- 904.22
+  source -> target : 1725.30 +/- 854.81
+===================================================
