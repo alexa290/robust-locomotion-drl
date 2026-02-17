@@ -99,27 +99,14 @@ python plot_results.py
 
 ```
 
----
+## 📄 Project Report
 
-## 📄 Documentation
+A detailed PDF report is available in the `docs/` folder. It contains:
 
-For a deep dive into the mathematical formulation, reward engineering, and extensive ablation studies, please refer to the full project report included in this repository:
+* **Methodology:** Explanation of the Domain Randomization and Curriculum approach.
+* **Math:** The exact formulas used for the Rewards and Safety constraints.
+* **Results:** Graphs and charts comparing the Resilient agents against the Baselines.
 
-👉 **[Download Project Report (PDF)]()**
+👉 **[Read the Report (PDF)](docs/Robust_Locomotion_DRL_Paper.pdf)**
 
----
-
-## 📝 Citation
-
-If you find this code useful, please cite this repository:
-
-```bibtex
-@misc{tuocognome2026robust,
-  author = {Your Name and Co-Author Name},
-  title = {Robust Locomotion via Curriculum Domain Randomization},
-  year = {2026},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{[https://github.com/YOUR_USERNAME/robust-locomotion-drl](https://github.com/YOUR_USERNAME/robust-locomotion-drl)}}
-}
 
